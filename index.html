@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Julie Scents — Designer perfumes &amp; long-lasting recreations</title>
+<meta name="description" content="Julie Scents stocks the world's best-loved fragrances for women and men — and recreates any of them to order using high-concentration premium oils, guaranteed to last.">
+<meta property="og:title" content="Julie Scents — Designer perfumes &amp; long-lasting recreations">
+<meta property="og:description" content="The fragrance you love, the longevity you deserve. Shop sixteen designer scents, or have any of them recreated in-house.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/pages.css">
+<link rel="stylesheet" href="assets/css/commerce.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ==================================================== ANNOUNCEMENT BAR -->
+<div class="announce">
+  <div class="announce__track">
+    <p class="announce__item is-active">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6h11v10H2z"/><path d="M13 9h4.5l3.5 3.5V16H13z"/><circle cx="6" cy="18" r="1.8"/><circle cx="17.5" cy="18" r="1.8"/></svg>
+      Complimentary delivery on orders over $150
+    </p>
+    <p class="announce__item">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5.3l3.4 2"/></svg>
+      Every recreation guaranteed for 8&ndash;12 hours of wear
+    </p>
+    <p class="announce__item">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2v6.5L4.5 17A2.6 2.6 0 0 0 6.8 21h10.4a2.6 2.6 0 0 0 2.3-4L15 8.5V2"/><path d="M8 2h8M6.6 15h10.8"/></svg>
+      Blended by hand in our atelier &middot; 100% premium oils
+    </p>
+  </div>
+  <button class="announce__close" type="button" data-close-announce aria-label="Dismiss announcement">
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+  </button>
+</div>
+
+<!-- ============================================================== HEADER -->
+<header class="header">
+  <div class="wrap header__inner">
+    <button class="burger" type="button" data-open-nav aria-label="Open menu"><span></span></button>
+
+    <a class="brand" href="index.html">
+      <span class="brand__mark">Julie <em>Scents</em></span>
+      <span class="brand__sub">Perfume Atelier</span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <div class="nav__item">
+        <a class="nav__link" href="shop.html?gender=women">Women</a>
+      </div>
+      <div class="nav__item">
+        <a class="nav__link" href="shop.html?gender=men">Men</a>
+      </div>
+      <div class="nav__item">
+        <a class="nav__link" href="shop.html?gender=unisex">Unisex</a>
+      </div>
+      <div class="nav__item">
+        <a class="nav__link" href="shop.html">Houses
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg>
+        </a>
+        <div class="mega">
+          <div class="mega__grid" id="megaBrands"></div>
+        </div>
+      </div>
+      <div class="nav__item">
+        <a class="nav__link" href="recreate.html">Recreate</a>
+      </div>
+      <div class="nav__item">
+        <a class="nav__link" href="about.html">Atelier</a>
+      </div>
+    </nav>
+
+    <div class="header__actions">
+      <button class="icon-btn" type="button" data-open-search aria-label="Search">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      </button>
+      <button class="icon-btn hide-sm" type="button" data-open-account aria-label="Your account">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>        <circle cx="12" cy="7" r="4"/></svg>
+      </button>
+      <button class="icon-btn" type="button" data-open-cart data-cart-link aria-label="Cart">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        <span class="cart-count" data-cart-count>0</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============================================================== HERO -->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <img class="hero__img" src="assets/img/editorial/hero.webp" alt="" aria-hidden="true" onerror="this.remove()">
+    <div class="hero__scrim"></div>
+    <div class="hero__glow"></div>
+
+    <div class="wrap hero__inner">
+      <div>
+        <p class="eyebrow" data-hero-fade>The house of recreation</p>
+
+        <h1 class="hero__title">
+          <span class="line"><span>Every scent</span></span>
+          <span class="line"><span><em>you love,</em></span></span>
+          <span class="line"><span>recreated.</span></span>
+        </h1>
+
+        <p class="hero__lede" data-hero-fade>
+          Sixteen of the world's most loved fragrances, for women and men. Or let our
+          atelier rebuild any one of them from premium oils &mdash; same scent,
+          a fraction of the price, and guaranteed to last.
+        </p>
+
+        <div class="hero__cta" data-hero-fade>
+          <a class="btn btn--gold btn--lg" href="shop.html"><span>Shop the collection</span></a>
+          <a class="btn btn--light btn--lg" href="recreate.html"><span>How recreation works</span></a>
+        </div>
+
+        <div class="hero__meta" data-hero-fade>
+          <div class="hero__meta-item"><strong data-stat="products">16</strong>Fragrances in stock</div>
+          <div class="hero__meta-item"><strong>8&ndash;12h</strong>Wear, guaranteed</div>
+          <div class="hero__meta-item"><strong data-stat="houses">13</strong>Designer houses</div>
+        </div>
+      </div>
+
+      <aside class="notes-card" id="heroNotes" data-hero-fade aria-label="Fragrance of the week"></aside>
+    </div>
+
+    <div class="scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <span class="scroll-hint__line"></span>
+    </div>
+  </section>
+
+  <!-- ======================================================= TRUST STRIP -->
+  <section class="trust">
+    <div class="wrap">
+      <div class="trust__grid">
+        <div class="trust__item">
+          <span class="trust__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5 4 6v6c0 5 3.4 8.4 8 9.5 4.6-1.1 8-4.5 8-9.5V6Z"/><path d="m9 12 2.2 2.2L15.5 10"/></svg>
+          </span>
+          <h3 class="trust__title">100% authentic</h3>
+          <p class="trust__text">Every designer bottle is sourced direct from authorised distributors.</p>
+        </div>
+        <div class="trust__item">
+          <span class="trust__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2v6.5L4.5 17A2.6 2.6 0 0 0 6.8 21h10.4a2.6 2.6 0 0 0 2.3-4L15 8.5V2"/><path d="M8 2h8M6.6 15h10.8"/></svg>
+          </span>
+          <h3 class="trust__title">Premium oils only</h3>
+          <p class="trust__text">High-concentration fragrance oils, blended by hand in our atelier.</p>
+        </div>
+        <div class="trust__item">
+          <span class="trust__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5.3l3.4 2"/></svg>
+          </span>
+          <h3 class="trust__title">Longevity guaranteed</h3>
+          <p class="trust__text">Eight to twelve hours of wear, or we replace the bottle free.</p>
+        </div>
+        <div class="trust__item">
+          <span class="trust__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6h11v10H2z"/><path d="M13 9h4.5l3.5 3.5V16H13z"/><circle cx="6" cy="18" r="1.8"/><circle cx="17.5" cy="18" r="1.8"/></svg>
+          </span>
+          <h3 class="trust__title">Free delivery over $150</h3>
+          <p class="trust__text">Discreetly packaged and dispatched within 24 hours.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================= CATEGORIES -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <div class="section-head__title">
+          <p class="eyebrow">Find your signature</p>
+          <h2 class="mt-2">Shop by family</h2>
+        </div>
+        <a class="btn-text" href="shop.html">Browse all 16 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+
+      <div class="cats">
+        <a class="cat" href="shop.html?gender=women">
+          <img class="cat__img" src="assets/img/editorial/cat-her.webp" alt="" loading="lazy" onerror="this.remove()">
+          <div class="cat__inner">
+            <span class="cat__count" data-gender-count="women">29 fragrances</span>
+            <h3 class="cat__name">For Her</h3>
+            <p class="cat__desc">Florals, gourmands and everything softly powerful.</p>
+            <span class="cat__arrow">Discover <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </div>
+        </a>
+        <a class="cat" href="shop.html?gender=men">
+          <img class="cat__img" src="assets/img/editorial/cat-him.webp" alt="" loading="lazy" onerror="this.remove()">
+          <div class="cat__inner">
+            <span class="cat__count" data-gender-count="men">26 fragrances</span>
+            <h3 class="cat__name">For Him</h3>
+            <p class="cat__desc">Fresh woods, ambers and the great modern masculines.</p>
+            <span class="cat__arrow">Discover <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </div>
+        </a>
+        <a class="cat" href="shop.html?gender=unisex">
+          <img class="cat__img" src="assets/img/editorial/cat-unisex.webp" alt="" loading="lazy" onerror="this.remove()">
+          <div class="cat__inner">
+            <span class="cat__count" data-gender-count="unisex">5 fragrances</span>
+            <h3 class="cat__name">Unisex</h3>
+            <p class="cat__desc">Woody, smoky and skin-close scents for anyone.</p>
+            <span class="cat__arrow">Discover <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </div>
+        </a>
+        <a class="cat" href="shop.html?sale=1">
+          <img class="cat__img" src="assets/img/editorial/cat-recreate.webp" alt="" loading="lazy" onerror="this.remove()">
+          <div class="cat__inner">
+            <span class="cat__count">Recreated in-house</span>
+            <h3 class="cat__name">The Recreate Edit</h3>
+            <p class="cat__desc">Identical scent profile, up to 70% less than retail.</p>
+            <span class="cat__arrow">Discover <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================== BEST SELLERS -->
+  <section class="section section--tight section--ivory">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <div class="section-head__title">
+          <p class="eyebrow">Loved by our clients</p>
+          <h2 class="mt-2">Best sellers</h2>
+        </div>
+        <div class="rail-nav">
+          <button type="button" data-rail-prev aria-label="Previous products">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
+          </button>
+          <button type="button" data-rail-next aria-label="Next products">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="rail" id="railBest" data-stagger-grid></div>
+    </div>
+  </section>
+
+  <!-- ===================================================== RECREATE (USP) -->
+  <section class="section section--dark" id="recreate">
+    <div class="wrap">
+      <div class="split">
+        <div class="split__body" data-reveal>
+          <p class="eyebrow">The Julie Scents difference</p>
+          <h2 class="mt-2">We can recreate the perfume you already love</h2>
+          <p class="lede mt-4">
+            Designer houses spend fortunes on marketing and packaging. We spend ours
+            on the juice. Bring us any fragrance in our collection &mdash; or one that
+            isn't &mdash; and our perfumers rebuild it note for note using
+            high-concentration premium oils.
+          </p>
+
+          <div class="steps mt-7">
+            <div class="step">
+              <span class="step__num"></span>
+              <div>
+                <h3 class="step__title">Choose your scent</h3>
+                <p class="step__text">Pick any fragrance from the collection and select the Recreate option on its page.</p>
+              </div>
+            </div>
+            <div class="step">
+              <span class="step__num"></span>
+              <div>
+                <h3 class="step__title">We rebuild the accord</h3>
+                <p class="step__text">Our atelier matches the top, heart and base notes using premium fragrance oils at full concentration.</p>
+              </div>
+            </div>
+            <div class="step">
+              <span class="step__num"></span>
+              <div>
+                <h3 class="step__title">Wear it and test the hours</h3>
+                <p class="step__text">If it doesn't last eight hours on your skin, we replace it. That promise is printed on every bottle.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__cta mt-7">
+            <a class="btn btn--gold" href="recreate.html"><span>Recreate a fragrance</span></a>
+            <a class="btn btn--light" href="shop.html?sale=1"><span>Shop recreate prices</span></a>
+          </div>
+        </div>
+
+        <div class="split__media" data-reveal>
+          <div class="panel">
+            <div class="panel__head">
+              <h3 class="panel__title">Side by side</h3>
+              <span class="badge badge--soft">Average result</span>
+            </div>
+            <div class="compare" id="compareBars"></div>
+            <p class="small muted mt-5">
+              Averages from our in-house wear tests across 12 recreations, measured over
+              8 hours on 30 volunteers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ ATELIER -->
+  <section class="section">
+    <div class="wrap">
+      <div class="split split--reverse">
+        <div class="split__media" data-reveal>
+          <div class="visual visual--wide visual--photo">
+            <img src="assets/img/editorial/craft.webp" alt="Fragrance oil being poured into an amber bottle on the atelier bench" loading="lazy" onerror="this.remove()">
+            <span class="visual__frame"></span>
+            <div class="visual__content">
+              <span class="visual__label">The atelier</span>
+              <p class="visual__title">Blended, filled and sealed by hand</p>
+              <p class="visual__text">No mass production. Every order is mixed to volume on the day it ships.</p>
+            </div>
+          </div>
+        </div>
+        <div class="split__body" data-reveal>
+          <p class="eyebrow">Our craft</p>
+          <h2 class="mt-2">Small-batch perfumery, without the markup</h2>
+          <p class="lede mt-4">
+            Julie Scents began as a single counter in a fragrance hall, refilling
+            bottles for clients who had fallen in love with a scent they could no
+            longer afford to keep buying at retail.
+          </p>
+          <p class="muted mt-4">
+            Ten years on, the method has not changed. We buy premium oils in small
+            quantities, keep our concentrations high, and refuse to cut a blend to
+            make it cheaper. That is why a Julie Scents recreation can outlast the
+            original it was built from.
+          </p>
+          <div class="cards-3 mt-7">
+            <div class="vcard">
+              <span class="vcard__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5s6.5 6.9 6.5 11a6.5 6.5 0 0 1-13 0c0-4.1 6.5-11 6.5-11Z"/></svg>
+              </span>
+              <h3>High concentration</h3>
+              <p>Blended at 25&ndash;30% oil, well above the industry norm for an eau de parfum.</p>
+            </div>
+            <div class="vcard">
+              <span class="vcard__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20C6 20 3 17 3 12.5A9.5 9.5 0 0 1 12.5 3H20v7.5A9.5 9.5 0 0 1 11 20Z"/><path d="M8 20c1.5-5 4.5-8 9-10"/></svg>
+              </span>
+              <h3>Clean ingredients</h3>
+              <p>Vegan, cruelty-free oils with no drying alcohol burn on first spray.</p>
+            </div>
+            <div class="vcard">
+              <span class="vcard__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5.3l3.4 2"/></svg>
+              </span>
+              <h3>The 8-hour promise</h3>
+              <p>If a recreation fades before eight hours, we replace it &mdash; no questions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================= BRANDS -->
+  <section class="section section--tight section--dark">
+    <div class="wrap">
+      <p class="eyebrow eyebrow--center text-center" style="display:flex;justify-content:center" data-reveal>Every house under one roof</p>
+    </div>
+    <div class="marquee mt-5" aria-hidden="true">
+      <div class="marquee__track" id="brandTrackA"></div>
+      <div class="marquee__track" id="brandTrackB"></div>
+    </div>
+  </section>
+
+  <!-- ====================================================== NEW ARRIVALS -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <div class="section-head__title">
+          <p class="eyebrow">Just added</p>
+          <h2 class="mt-2">New to the atelier</h2>
+        </div>
+        <a class="btn-text" href="shop.html">View all 16 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <div class="grid-products grid-products--4" id="gridNew" data-stagger-grid></div>
+    </div>
+  </section>
+
+  <!-- =================================================== LONGEVITY / STATS -->
+  <section class="section section--dark">
+    <div class="wrap">
+      <div class="section-head section-head--center" data-reveal>
+        <p class="eyebrow eyebrow--center">Measured, not claimed</p>
+        <h2 class="section-head__title mt-3">Longevity you can hold us to</h2>
+        <p class="lede text-center mt-4">
+          We publish our wear-test results. If your bottle falls short, we replace it.
+        </p>
+      </div>
+
+      <div class="stats" data-reveal>
+        <div>
+          <div class="stat__value"><span data-count="11" data-decimals="0">11</span></div>
+          <div class="stat__label">Average hours of wear</div>
+        </div>
+        <div>
+          <div class="stat__value"><span data-count="27" data-decimals="0">27</span><sup>%</sup></div>
+          <div class="stat__label">Average oil concentration</div>
+        </div>
+        <div>
+          <div class="stat__value"><span data-count="4.8" data-decimals="1">4.8</span></div>
+          <div class="stat__label">Client rating out of 5</div>
+        </div>
+        <div>
+          <div class="stat__value"><span data-count="99" data-decimals="0">99</span><sup>%</sup></div>
+          <div class="stat__label">Would recommend us</div>
+        </div>
+      </div>
+
+      <hr class="divider mt-8">
+      <div class="cards-3 mt-7">
+        <div class="vcard">
+          <span class="vcard__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.2 2.4 2.4 4.6-4.9"/></svg>
+          </span>
+          <h3>8+ hour guarantee</h3>
+          <p>Wear it for a week. If it fades early, tell us and we will re-blend or refund it.</p>
+        </div>
+        <div class="vcard">
+          <span class="vcard__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6h11v10H2z"/><path d="M13 9h4.5l3.5 3.5V16H13z"/><circle cx="6" cy="18" r="1.8"/><circle cx="17.5" cy="18" r="1.8"/></svg>
+          </span>
+          <h3>Free returns for 30 days</h3>
+          <p>Unopened bottles are collected at our cost, anywhere in the country.</p>
+        </div>
+        <div class="vcard">
+          <span class="vcard__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2v6.5L4.5 17A2.6 2.6 0 0 0 6.8 21h10.4a2.6 2.6 0 0 0 2.3-4L15 8.5V2"/><path d="M8 2h8M6.6 15h10.8"/></svg>
+          </span>
+          <h3>Free 5 ml samples</h3>
+          <p>Every order includes two sample vials so you can test before committing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================= TESTIMONIALS -->
+  <section class="section section--ivory">
+    <div class="wrap">
+      <div class="section-head section-head--center" data-reveal>
+        <p class="eyebrow eyebrow--center">In their words</p>
+        <h2 class="section-head__title mt-3">Clients who came back for a second bottle</h2>
+      </div>
+
+      <div class="quotes">
+        <figure class="quote">
+          <span class="quote__mark">&ldquo;</span>
+          <blockquote class="quote__text">
+            I ordered the recreation of my usual scent out of curiosity and it lasted
+            the whole working day &mdash; longer than the bottle I had been buying for
+            years. I have not gone back.
+          </blockquote>
+          <figcaption class="quote__foot">
+            <span class="quote__avatar">N</span>
+            <span>
+              <span class="quote__who">Nadia R.</span>
+              <span class="quote__where">Verified buyer &middot; 100 ml recreation</span>
+            </span>
+          </figcaption>
+        </figure>
+
+        <figure class="quote">
+          <span class="quote__mark">&ldquo;</span>
+          <blockquote class="quote__text">
+            The packaging feels like something from a department store counter, and
+            the notes are exactly right. My husband could not tell the difference.
+          </blockquote>
+          <figcaption class="quote__foot">
+            <span class="quote__avatar">E</span>
+            <span>
+              <span class="quote__who">Elise M.</span>
+              <span class="quote__where">Verified buyer &middot; gift set</span>
+            </span>
+          </figcaption>
+        </figure>
+
+        <figure class="quote">
+          <span class="quote__mark">&ldquo;</span>
+          <blockquote class="quote__text">
+            I buy the original for special occasions and the recreation for every day.
+            Two bottles, one budget, no compromise on how it smells.
+          </blockquote>
+          <figcaption class="quote__foot">
+            <span class="quote__avatar">D</span>
+            <span>
+              <span class="quote__who">Daniel K.</span>
+              <span class="quote__where">Verified buyer &middot; repeat client</span>
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================= NEWSLETTER -->
+  <section class="section section--dark newsletter">
+    <div class="wrap">
+      <div class="newsletter__inner">
+        <div data-reveal>
+          <p class="eyebrow">Join the list</p>
+          <h2 class="mt-2">Ten percent off your first bottle</h2>
+          <p class="lede mt-4">
+            New arrivals, recreate offers and occasional notes from the atelier.
+            One email a month, never more.
+          </p>
+        </div>
+        <form class="newsletter__form" data-reveal novalidate>
+          <label class="sr-only" for="newsEmail">Email address</label>
+          <input class="input" id="newsEmail" type="email" name="email" placeholder="you@example.com" required>
+          <button class="btn btn--gold" type="submit"><span>Subscribe</span></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================================================== FOOTER -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a class="brand" href="index.html">
+          <span class="brand__mark">Julie <em>Scents</em></span>
+          <span class="brand__sub">Perfume Atelier</span>
+        </a>
+        <p class="footer__blurb">
+          Designer fragrances for women and men, plus in-house recreations blended
+          from premium oils and guaranteed to last.
+        </p>
+        <div class="footer__socials">
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 8h3V5h-3a4 4 0 0 0-4 4v2H8v3h2v7h3v-7h2.5l.5-3H13V9a1 1 0 0 1 1-1Z"/></svg></a>
+          <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3v9.5a3.5 3.5 0 1 1-3-3.4"/><path d="M15 3a4.5 4.5 0 0 0 4.5 4.5"/></svg></a>
+          <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer" aria-label="Pinterest"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 20c-.4-1.6 0-3.6.3-5l1-4.2"/><path d="M8.4 11.4c0-2.3 1.8-4.4 4.6-4.4 2.4 0 4 1.5 4 3.8 0 2.7-1.5 4.7-3.6 4.7a1.9 1.9 0 0 1-1.8-1.2"/></svg></a>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="footer__title">Shop</h3>
+        <ul class="footer__list">
+          <li><a href="shop.html?gender=women">Women's fragrance</a></li>
+          <li><a href="shop.html?gender=men">Men's fragrance</a></li>
+          <li><a href="shop.html?gender=unisex">Unisex</a></li>
+          <li><a href="shop.html?sale=1">Recreate edit</a></li>
+          <li><a href="shop.html">All fragrances</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="footer__title">Atelier</h3>
+        <ul class="footer__list">
+          <li><a href="recreate.html">How recreation works</a></li>
+          <li><a href="about.html">Our story</a></li>
+          <li><a href="recreate.html#quality">Our oils</a></li>
+          <li><a href="contact.html#faq">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="footer__title">Client care</h3>
+        <ul class="footer__list">
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="contact.html#shipping">Shipping &amp; returns</a></li>
+          <li><a href="contact.html#faq">Longevity guarantee</a></li>
+          <li><a href="checkout.html">Checkout</a></li>
+          <li><a href="cart.html">Your cart</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p class="tiny">&copy; <span data-year>2026</span> Julie Scents. Demo storefront for presentation purposes.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/products.js"></script>
+<script src="assets/js/store.js"></script>
+<script src="assets/js/ui.js"></script>
+<script src="assets/js/home.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+<script src="assets/js/animations.js" defer></script>
+</body>
+</html>

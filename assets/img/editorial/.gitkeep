@@ -1,0 +1,20 @@
+Optional lifestyle / editorial imagery. The design does not depend on these —
+every editorial block is art-directed so it looks deliberate with or without a
+photograph — but these files fill the slots the pages ask for.
+
+| File | Used by | Crop |
+| --- | --- | --- |
+| `hero.webp` | home — hero | 2200 × 1300 |
+| `craft.webp` | home — Our craft | 1600 × 1000 |
+| `cat-her.webp` | home — shop-by-family tile | 900 × 1200 |
+| `cat-him.webp` | home — shop-by-family tile | 900 × 1200 |
+| `cat-unisex.webp` | home — shop-by-family tile | 900 × 1200 |
+| `cat-recreate.webp` | home — shop-by-family tile | 900 × 1200 |
+| `recreate-steps.webp` | recreate — Four steps | 1200 × 1500 |
+| `story.webp` | atelier — Our story | 1400 × 1750 |
+| `in-person.webp` | atelier — In person | 1600 × 1000 |
+
+Replace any of them with your own photograph of the same name, or drop new files
+in and point the markup at them. `node tools/.fetch-stock-images.mjs` refetches
+and re-encodes the current stock set as WebP (Pexels, free to use, no attribution
+required).

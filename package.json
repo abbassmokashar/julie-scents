@@ -1,0 +1,18 @@
+{
+  "name": "julie-scents",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Julie Scents — demo storefront for a designer perfume retailer with in-house fragrance recreations.",
+  "scripts": {
+    "start": "npx --yes serve . -l 4173",
+    "check": "node tools/validate.mjs && node tools/test-commerce.mjs",
+    "validate": "node tools/validate.mjs",
+    "test": "node tools/test-commerce.mjs",
+    "images": "node tools/import-images.mjs",
+    "images:list": "node tools/import-images.mjs --checklist",
+    "woocommerce": "node tools/export-woocommerce.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.4"
+  }
+}

@@ -1,0 +1,10 @@
+# dependencies (only needed for the image tools, not to run the site)
+node_modules/
+
+# scratch folder for photos you are about to import
+incoming-images/
+
+# OS noise
+.DS_Store
+Thumbs.db
+*.log

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Order confirmed — Julie Scents</title>
+<meta name="description" content="Thank you for your order from Julie Scents.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/pages.css">
+<link rel="stylesheet" href="assets/css/commerce.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="header">
+  <div class="wrap header__inner">
+    <a class="brand" href="index.html">
+      <span class="brand__mark">Julie <em>Scents</em></span>
+      <span class="brand__sub">Perfume Atelier</span>
+    </a>
+    <div style="margin-inline:auto"></div>
+    <div class="header__actions">
+      <a class="btn-text" href="shop.html">Continue shopping</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <div class="confirm" id="confirmRoot">
+      <div class="confirm__icon">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+      </div>
+      <p class="eyebrow eyebrow--center" style="display:inline-flex">Order confirmed</p>
+      <h1 class="mt-3">Thank you — your order is with the atelier</h1>
+      <p class="lede" style="margin-inline:auto">
+        A confirmation has been sent to your inbox. Recreations are blended to order,
+        so allow one extra working day before dispatch.
+      </p>
+
+      <div class="confirm__order">
+        Order number <b id="orderNumber">—</b>
+      </div>
+
+      <div class="confirm__grid">
+        <div>
+          <p class="eyebrow eyebrow--plain">Delivering to</p>
+          <p class="mt-3" id="orderAddress" style="font-size:.92rem">—</p>
+          <p class="small muted mt-2" id="orderEmail">—</p>
+        </div>
+        <div>
+          <p class="eyebrow eyebrow--plain">Delivery method</p>
+          <p class="mt-3" id="orderMethod" style="font-size:.92rem">—</p>
+          <p class="small muted mt-2" id="orderDate">—</p>
+        </div>
+        <div>
+          <p class="eyebrow eyebrow--plain">Payment</p>
+          <p class="mt-3" id="orderCard" style="font-size:.92rem">—</p>
+          <p class="small muted mt-2">Nothing charged online</p>
+        </div>
+      </div>
+
+      <div class="panel mt-6" id="giftNotePanel" hidden>
+        <p class="eyebrow eyebrow--plain">Handwritten note</p>
+        <p class="mt-2" id="orderGiftNote" style="font-size:.92rem"></p>
+      </div>
+    </div>
+  </div>
+
+  <section class="section section--tight section--ivory">
+    <div class="wrap">
+      <div class="cart-layout" style="padding-block:0">
+        <div>
+          <div class="panel">
+            <div class="panel__head">
+              <h2 class="panel__title">What you ordered</h2>
+              <span class="small muted" id="orderCount"></span>
+            </div>
+            <div id="orderLines"></div>
+
+            <div class="mt-5" style="border-top:1px solid var(--line);padding-top:1rem">
+              <div class="sum-row"><span>Subtotal</span><strong id="sumSub">—</strong></div>
+              <div class="sum-row" id="sumDiscountRow" hidden><span id="sumDiscountLabel">Discount</span><strong id="sumDiscount">—</strong></div>
+              <div class="sum-row"><span id="sumShipLabel">Delivery</span><strong id="sumShip">—</strong></div>
+              <div class="sum-row" id="sumGiftRow" hidden><span>Gift wrapping</span><strong id="sumGift">—</strong></div>
+              <div class="sum-row"><span>Tax</span><strong id="sumTax">—</strong></div>
+              <div class="sum-row sum-row--total"><span>Total paid</span><span class="amount" id="sumTotal">—</span></div>
+            </div>
+          </div>
+        </div>
+
+        <aside>
+          <div class="panel">
+            <div class="panel__head"><h2 class="panel__title">What happens next</h2></div>
+            <div class="steps">
+              <div class="step">
+                <span class="step__num"></span>
+                <div>
+                  <h3 class="step__title">We blend your order</h3>
+                  <p class="step__text">Any recreation in this order is mixed by hand the day before it ships.</p>
+                </div>
+              </div>
+              <div class="step">
+                <span class="step__num"></span>
+                <div>
+                  <h3 class="step__title">Dispatched within 24 hours</h3>
+                  <p class="step__text">You will receive tracking by email as soon as it leaves the atelier.</p>
+                </div>
+              </div>
+              <div class="step">
+                <span class="step__num"></span>
+                <div>
+                  <h3 class="step__title">Wear it for a week</h3>
+                  <p class="step__text">If a recreation fades before eight hours, reply to your confirmation and we will replace it.</p>
+                </div>
+              </div>
+            </div>
+            <a class="btn btn--full mt-6" href="shop.html"><span>Continue shopping</span></a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="relatedSection">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-head__title">
+          <p class="eyebrow">While you wait</p>
+          <h2 class="mt-2">Add a second bottle</h2>
+        </div>
+        <a class="btn-text" href="shop.html">Shop all
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div class="grid-products grid-products--4" id="relatedGrid" data-stagger-grid></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__bottom" style="border-top:0">
+      <p class="tiny">&copy; <span data-year>2026</span> Julie Scents. Demo storefront for presentation purposes.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/products.js"></script>
+<script src="assets/js/store.js"></script>
+<script src="assets/js/ui.js"></script>
+<script src="assets/js/confirmation.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+<script src="assets/js/animations.js" defer></script>
+</body>
+</html>
